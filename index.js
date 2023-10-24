@@ -1,12 +1,14 @@
+//Declare Variables
 let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
 let count = 0
 
+//Increment number function
 function increment() {
     count += 1
     countEl.textContent = count
 }
-
+//Save value function
 function save() {
     let countStr = " - " + count
 
